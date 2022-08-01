@@ -11,31 +11,38 @@
  */
 
  :root {
-  /* colors */
-  --link-color: #035fe6;
-  --link-hover-color: #136ff6;
-  --background-color: #fff;
-  --overlay-background-color: #eee;
-  --highlight-background-color: #ccc;
-  --text-color: #000;
 
-  /* fonts */
-  --body-font-family: 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
-  --heading-font-family: var(--body-font-family);
-  --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+   /* fonts */
+   --heading-font-family: Vollkorn, serif;
+   --body-font-family: "Open Sans", sans-serif;
+   --fixed-font-family: "Roboto Mono", menlo, consolas, "Liberation Mono", monospace;
+
+   /* colors */
+   --text-color: #575250;
+   --link-color: #1e1810;
+   --link-hover-color: #1e1810;
+   --background-color: #ffffff;
+   --overlay-background-color: #eeeeee;
+   --highlight-background-color: #cccccc;
+
+   /* sizes */
+   --heading-font-size-xxl: 66px;
+   --heading-font-size-xl: 42px;
+   --heading-font-size-l: 26px;
+   --heading-font-size-m: 20px;
+   --heading-font-size-s: 18px;
+   --heading-font-size-xs: 15px;
+   --body-font-size-xl: 16px;
+   --body-font-size-l: 15px;
+   --body-font-size-m: 14px;
+
 
   /* body sizes */
-  --body-font-size-m: 22px;
+
   --body-font-size-s: 18px;
   --body-font-size-xs: 14px;
 
-  /* heading sizes */
-  --heading-font-size-xxl: 48px;
-  --heading-font-size-xl: 40px;
-  --heading-font-size-l: 32px;
-  --heading-font-size-m: 24px;
-  --heading-font-size-s: 20px;
-  --heading-font-size-xs: 18px;
+
 
   /* nav height */
   --nav-height: 64px;
@@ -235,3 +242,5 @@ main .section[data-section-status='initialized'] {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+
+
