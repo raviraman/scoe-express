@@ -119,11 +119,13 @@ function applyRules(form, rules) {
 }
 
 async function createForm(formURL) {
+    console.debug('inside create form path :' , formURL)
     const { pathname } = new URL(formURL);
     const resp = await fetch(pathname);
     const json = await resp.json();
     const form = document.createElement('form');
     const rules = [];
+    console.debug(json)
     // eslint-disable-next-line prefer-destructuring
     form.dataset.action = pathname.split('.json')[0];
     json.data.forEach((fd) => {
