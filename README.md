@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.hlx.page/
-- Live: https://main--{repo}--{owner}.hlx.live/
+- Preview: https://main--scoe-express--raviraman.hlx.page/
+- Live: https://main--scoe-express--raviraman.hlx.live/
 
 ## Installation
 
