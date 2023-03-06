@@ -1,4 +1,4 @@
-import { readBlockConfig } from '../../scripts/lib-franklin.js';
+import { readBlockConfig } from '../../scripts/scripts.js';
 import { init, renderAssetSelectorWithImsFlow, logoutImsFlow } from './aem-asset-selector-util.js';
 
 export default function decorate(block) {
